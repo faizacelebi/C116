@@ -1,0 +1,19 @@
+h3
+{
+    font-size: 30px !important;
+}
+
+.btn-success:hover{
+    background-color: rgb(21, 102, 232);
+}
+
+canvas{
+    animation-name: Cool_Filters;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Cool_Filters{
+    from{box-shadow: 2px 2px 38px rgb(213, 208, 72);}
+    to{box-shadow: 2px 2px 38px rgb(244, 191, 200);}
+}
